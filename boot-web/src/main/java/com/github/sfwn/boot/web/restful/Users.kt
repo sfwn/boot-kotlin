@@ -1,4 +1,4 @@
-package com.github.sfwn.boot.restful
+package com.github.sfwn.boot.web.restful
 
 import com.github.sfwn.boot.service.UserService
 import com.github.sfwn.boot.service.model.User
