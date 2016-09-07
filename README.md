@@ -1,7 +1,10 @@
 # Boot-Kotlin
 
 ## 简介
-这是一个用来练手的项目。
+这是一个用来练手的项目。  
+用到的技术:  
+- spring boot
+- kotlin
 
 ## 如何启动
 1.`clone`仓库  
