@@ -17,10 +17,7 @@ class CustomUserAuthServiceImpl : UserAuthService {
 
     override fun checkAuth(username: String, password: String): Response<User> {
         // TODO
-        val customUser = User().apply {
-            this.username = username
-            this.password = password
-        }
+        val customUser = User()
         return Response.ok(customUser)
     }
 }

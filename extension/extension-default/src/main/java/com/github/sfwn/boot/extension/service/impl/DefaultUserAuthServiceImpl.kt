@@ -15,10 +15,7 @@ class DefaultUserAuthServiceImpl : UserAuthService {
 
     override fun checkAuth(username: String, password: String): Response<User> {
         // TODO
-        val defaultUser = User().apply {
-            this.username = username
-            this.password = password
-        }
+        val defaultUser = User()
         return Response.ok(defaultUser)
     }
 }
