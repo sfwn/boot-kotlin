@@ -7,5 +7,5 @@ import com.github.sfwn.boot.service.model.User
  */
 interface UserService {
 
-    fun register(user: User): User
+    fun register(user: User): Long
 }

@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service
 @Service
 class UserServiceImpl : UserService {
 
-    override fun register(user: User): User {
-        // TODO
-        return user
+    override fun register(user: User): Long {
+        user.insert()
+        return user.id!!
     }
 }

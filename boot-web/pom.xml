@@ -11,13 +11,21 @@
 
     <artifactId>boot-web</artifactId>
 
+    <properties>
+        <boot.version>0.1-SNAPSHOT</boot.version>
+    </properties>
+
     <dependencies>
 
         <!--extension default-->
         <dependency>
             <groupId>com.github.sfwn.boot</groupId>
             <artifactId>extension-default</artifactId>
-            <version>0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sfwn.boot</groupId>
+            <artifactId>boot-common</artifactId>
         </dependency>
     </dependencies>
 
@@ -28,7 +36,7 @@
                 <dependency>
                     <groupId>com.github.sfwn.boot</groupId>
                     <artifactId>extension-custom</artifactId>
-                    <version>0.1-SNAPSHOT</version>
+                    <version>${boot.version}</version>
                 </dependency>
             </dependencies>
         </profile>
