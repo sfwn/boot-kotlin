@@ -3,11 +3,11 @@
 ## 简介
 这是一个用来练手的项目。  
 用到的技术:  
-- spring boot
 - kotlin
+- spring boot
 
 ## 如何启动
-1.`clone`仓库  
+1.`$ git clone git@github.com:sfwn/boot-kotlin.git`  
 2.`$ cd boot-kotlin`  
 3.`$ mvn clean package -DskipTests`  
 4.`$ cd boot-web/target`  
