@@ -5,6 +5,8 @@
 用到的技术:  
 - kotlin
 - spring boot
+- maven
+- java 1.8
 
 ## 如何启动
 1.`$ git clone git@github.com:sfwn/boot-kotlin.git`  
