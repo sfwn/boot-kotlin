@@ -5,7 +5,7 @@
     <parent>
         <artifactId>extension</artifactId>
         <groupId>com.github.sfwn.boot</groupId>
-        <version>${boot.version}</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,15 +15,11 @@
         <dependency>
             <groupId>com.github.sfwn.boot</groupId>
             <artifactId>boot-common</artifactId>
-            <version>0.1-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>com.github.sfwn.boot</groupId>
             <artifactId>boot-service</artifactId>
-            <version>0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>

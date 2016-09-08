@@ -5,12 +5,13 @@
     <parent>
         <artifactId>boot-kotlin-parent</artifactId>
         <groupId>com.github.sfwn.boot</groupId>
-        <version>${boot.version}</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>extension</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>extension-default</module>
         <module>extension-custom</module>

@@ -15,9 +15,7 @@
         <dependency>
             <groupId>com.github.sfwn.boot</groupId>
             <artifactId>extension-default</artifactId>
-            <version>0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>
