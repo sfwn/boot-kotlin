@@ -1,4 +1,4 @@
-package com.github.sfwn.boot.extension.service
+package com.github.sfwn.boot.service
 
 import com.github.sfwn.boot.common.Response
 import com.github.sfwn.boot.service.model.User

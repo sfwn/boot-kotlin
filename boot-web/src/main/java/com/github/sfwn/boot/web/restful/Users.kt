@@ -19,10 +19,6 @@ class Users @Autowired constructor(
 
     @RequestMapping("/register", method = arrayOf(RequestMethod.POST))
     fun register(mobile: String, password: String, email: String, nick: String): User {
-        email
-        mobile
-        nick
-        password
         if (!RegexUtil.isEmail(email)) throw IllegalArgumentException("invalid email")
         if (!RegexUtil.isMobile(mobile)) throw IllegalArgumentException("invalid mobile")
         val user = User().apply {
@@ -32,7 +28,6 @@ class Users @Autowired constructor(
             this.password = password
             this.status = User.STATUS.LOCKED
         }
-        println("ok")
         return user
     }
 }

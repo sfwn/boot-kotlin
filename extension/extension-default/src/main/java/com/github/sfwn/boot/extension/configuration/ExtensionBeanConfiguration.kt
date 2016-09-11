@@ -1,7 +1,7 @@
 package com.github.sfwn.boot.extension.configuration
 
-import com.github.sfwn.boot.extension.service.UserAuthService
 import com.github.sfwn.boot.extension.service.impl.DefaultUserAuthServiceImpl
+import com.github.sfwn.boot.service.UserAuthService
 import com.github.sfwn.boot.service.UserService
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean

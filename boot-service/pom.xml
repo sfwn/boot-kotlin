@@ -13,6 +13,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.sfwn.boot</groupId>
+            <artifactId>boot-common</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.avaje.ebeanorm</groupId>
             <artifactId>avaje-ebeanorm</artifactId>
             <version>7.21.2</version>

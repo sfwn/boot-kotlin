@@ -1,7 +1,7 @@
 package com.github.sfwn.boot.extension.service.impl
 
 import com.github.sfwn.boot.common.Response
-import com.github.sfwn.boot.extension.service.UserAuthService
+import com.github.sfwn.boot.service.UserAuthService
 import com.github.sfwn.boot.service.model.User
 
 /**
