@@ -1,7 +1,3 @@
-[TOC]
-
-
-
 * [Boot-Kotlin](#boot-kotlin)
 	* [简介](#简介)
 	* [如何启动](#如何启动)
