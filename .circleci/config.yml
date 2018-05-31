@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Precompile assets
           command: bundle exec rake assets:precompile
-...                          
+
 workflows:
   version: 2
   build_and_test: # name of your workflow
